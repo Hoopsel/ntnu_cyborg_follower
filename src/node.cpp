@@ -199,7 +199,7 @@ void bodies_sub_cb(const k2_client::BodyArray msg){
 
 
 int main(int argc,char **argv){
-	ros::init(argc,argv,"personFollower");
+	ros::init(argc,argv,"ntnu_cyborg_follower_node");
 	ros::NodeHandle n;
 	n.getParam("use_coordinator",use_coordinator);
 
